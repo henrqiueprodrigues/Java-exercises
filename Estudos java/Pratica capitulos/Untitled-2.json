@@ -1,0 +1,270 @@
+{   
+  "datiChiamata": {
+    "idOperazione": "123e4567-e89b-12d3-a456-426655440000",
+    "codApplicativoChiamante": "LMBP0",
+    "codCanale": "EP",
+    "codAbi": "01025",
+    "codClone": "01",
+    "codFiliale": "20144",
+    "codMatricola": "U012345",
+    "nomeUtente": "Mario Rossi",
+    "cognomeUtente": "Mario Rossi"
+  },
+  "soggetti":[   {
+    "idAnagSoggettoPf": 1,
+    "desNome": "nome",
+    "desCognome": "nome",
+    "codSesso":{
+        "value": "M",
+        "description": "Maschio"
+    },
+    "codCittadinanza": "cit",
+    "flgAcquisizioneDocumentiCittadinanza": false,
+    "flgAcquisizioneDocumentiStatoCivile": false,
+    "perfezionamentoOperazione": "pref",
+    "desNote1": "desNote1",
+    "desNote2": "desNote2",
+    "codTitoloStudio": "tito",
+    "datiNascita":{
+        "datNascita":"2000-10-23",
+        "desLuogoNascita": "text",
+        "codProvinciaNascita": "1",
+        "codNazioneNascita": "1",
+        "codCatastaleComune": "1",
+        "desNazioneNascita": "desNazioneNascita"
+    },
+    "datiDocumentoIdentita":{
+        "codTipoDocumento": "1",
+        "numDocumento": "numDocumento",
+        "desLuogoRilascio": "desLuogoRilascio",
+        "codProvRilascio": "1",
+        "codUfficioRilascio": "1",
+        "codNazioneRilascio": "1",
+        "desNazioneRilascio": "desNazioneRilascio",
+        "datRilascio": "2000-10-23",
+        "datScadenza": "2100-10-23",
+        "codCatastComuneRilascio": "1"
+    },
+    "datiIndirizzoResidenza":{
+        "desIndirizzo1": "desIndirizzo1",
+        "desIndirizzo2": "desIndirizzo2",
+        "desComune": "desComune",
+        "codProvincia": "1",
+        "codCap": "1",
+        "codNazione": "1",
+        "codCatastaleComune": "1"
+    },
+    "datiIndirizzoSede": {
+        "desIndirizzo1": "desIndirizzo1",
+        "desIndirizzo2": "desIndirizzo2",
+        "desComune": "desComune",
+        "codProvincia": "1",
+        "codCap": "1",
+        "codNazione": "1",
+        "codCatastaleComune": "1"
+    },
+    "datiIndirizzoPrecedente":{
+        "desIndirizzo1": "desIndirizzo1",
+        "desIndirizzo2": "desIndirizzo2",
+        "desComune": "desComune",
+        "codProvincia": "1",
+        "codCap": "1",
+        "codNazione": "1",
+        "codCatastaleComune": "1"
+    },
+    "datiPermessoSoggiorno":{
+        "codTipoPermesso": "1",
+        "datInizioValidita": "2000-10-25"
+    },
+    "datiAbitazione": {
+        "codTipoAbitazione": "1",
+        "codTipoLocazione": "1",
+        "impCostoAbitazione": 1,
+        "flgProprietaImmobiliare": false
+    },
+    "datiFamiliari":{
+     "numComponentiNucleoFamiliare": 2,
+    "numComponentiNucleoFamiliarePercettoriReddito": 1,
+    "numComponentiNucleoFamiliarePercettoriRedditoDiCuiFigli": 1,
+    "numComponentiNucleoFamiliareSenzaReddito": 1,
+    "codCooabitante": "1",
+    "codStatoCivile": "1",
+    "codGradoParentela": "1"
+    },
+    "datiReddito":{
+        "numMensilitaReddito": 10,
+        "impRedditoMensile": 1,
+        "impRedditoMensileAutodichiarazione": 1,
+        "impRedditoMensileCalcolato": 1,
+        "codTipoRedditoMensile": "A",
+        "datRedditoMensile": "2026-08-07",
+        "impRedditoAnnuale": 1,
+        "codTipoRedditoAnnuale": "A",
+        "datRedditoAnnuale": "2026-08-07",
+        "impAltriImpegni": 1,
+        "impAltriRedditi": 1,
+        "impAltriAlimenti": 1,
+        "codTipoAltriImpegni": "string",
+        "codTipoAltriRedditi": "string",
+        "flgAccreditoStipendio": false
+    },
+    "datiDatoreLavoro":{
+        "desDenominazione": "desDenominazione",
+        "desRagioneSociale1": "desRagioneSociale1",
+        "desRagioneSociale2": "desRagioneSociale1",
+        "indirizzo":{
+            "desIndirizzo1": "desIndirizzo1",
+            "desIndirizzo2": "desIndirizzo2",
+            "desComune": "desComune",
+            "codProvincia": "codProvincia",
+            "codCap": "codCap",
+            "codNazione": "codNazione",
+            "codCatastaleComune": "codCatastaleComune"
+        },
+        "recapito": {
+            "numTelefono1":"0240000000",
+            "numTelefono2":"0240000001",
+            "numCellulare":"3390000000",
+            "numFax":"0240000002",
+            "desIndirizzoMail":"mario.rossi@example.com"
+        },
+        "attivita": {
+            "codTipoAttivita": "string",
+            "codSettoreAttivita": "string",
+            "codOccupazioneAttivita": "string",
+            "codRamoGruppo": "string",
+            "codSottoGruppo": "string",
+            "codTipologiaAttivitaEconomica": "string",
+            "codAteco": "string",
+            "codProfessione": "string",
+            "codSettore": "string"
+        },
+        "occupazione": {
+            "datInizioOccupazione": "2003-12-12",
+            "datFineOccupazione": "2030-12-12",
+            "datAssunzione": "2010-12-12",
+            "codTipoAssunzione": "string",
+            "codQualifica": "string",
+            "codTipoContratto": "string",
+            "codTipoPensione": "string",
+            "codFasciaInizioOccupazione": "string"
+        },
+        "codFiscale":"RSSMRA80A01H501U",
+        "codMatricolaINPS": "codMatricolaINPS",
+        "codTipo": "codTipo"
+    },
+    "indSanctionList": "V",
+    "scipafi": {
+        "flgAnzianitaBancaria": false,
+        "codScore": "string",
+        "desEsito": [
+            "string"
+        ],
+        "cfDatoreLavoro": "string",
+        "matricolaInps": "string",
+        "nota": "string",
+        "esito": "string"
+    },
+    "caricheRicoperte": "caricheRicoperte",
+    "impCessioneDelQuinto": 10,
+
+    "idSoggettoPratica": 1,
+    "idPratica": 1001,
+    "numProgSoggetto": 1,
+    "tipoIndagine": "COMPLETA",
+    "codAbi": "12345",
+    "codNsg": "NSG001",
+    "datiPartnership": {
+        "codPartner": "BP",
+        "datAperturaRapporto": "2015-06-15",
+        "codRating": "A1",
+        "flgDipendente": false,
+        "codPuntoVendita": "PV001"},
+        "datiStatus": [
+            {
+                "codStatus": "ACTIVE",
+                "desStatus": "Attivo",
+                "datUltimaVariazione": "2026-01-01"
+            }
+    ],
+   "codSpecieGiuridica": "PERSONA_FISICA",
+   "codFiscale": "RSSMRA80A01H501U",
+   "codPartitaIva": "IT12345678901",
+   "desDenominazione": "Mario Rossi",
+   "codTipoSoggetto": "RICHIEDENTE",
+   "codLegame": "PRIMO_RICHIEDENTE",
+   "indirizzo": {  
+  "desIndirizzo1": "Via Roma 1",  
+  "desIndirizzo2": "Int. 2",  
+  "desComune": "Milano",  
+  "codProvincia": "MI",  
+  "codCap": "20100",  
+  "codNazione": "IT",  
+  "codCatastaleComune": "F205"
+  },
+   "datIndirizzoAttuale": "2020-01-01",
+   "datiRecapito": {  
+  "numTelefono1": "0240000000",  
+  "numTelefono2": "0240000001",  
+  "numCellulare": "3390000000",  
+  "numFax": "0240000002",  
+  "desIndirizzoMail": "mario.rossi@example.com"
+   },
+   "datAperturaRapporto": "2015-06-15",
+   "indCensimento": "NUOVO_CLIENTE",
+   "codTipoSegmentazione": "CO",
+   "desTipoSegmentazione": "CORPORATE",
+   "flgPersonaPoliticamenteEsposta": "N",
+   "flgArt136": "N",
+   "flgIas24": "N",
+   "flgConsob": "N",
+   "flgRilIntDealing": 0,
+   "flgBankit": "N",
+   "flgLimiteConsolRisc": "N",
+   "flgLimiteIndivRisc": "N",
+   "flgLca": "N",
+   "flgForborne": "N",
+   "codStatoAmministrativoGruppo": "SAG001", 
+   "codMacrostatoAmministrativoGruppo": "MAC001",
+   "status1": {  
+  "codStatus": 1,  
+  "desStatus": "Status 1",  
+  "datVariazione": "2025-12-01"
+  },
+   "status2": {  
+  "codStatus": 2,  
+  "desStatus": "Status 2",  
+  "datVariazione": "2025-11-01"
+  },
+  "status3": {  
+ "codStatus": 3,  
+ "desStatus": "Status 3",  
+ "datVariazione": "2025-10-01"
+ },
+  "status4": {  
+ "codStatus": 4,  
+ "desStatus": "Status 4",  
+ "datVariazione": "2025-09-01"
+ },
+ "status5": {  
+"codStatus": 5,  
+"desStatus": "Status 5",  "datVariazione": "2025-08-01"},"statusA": "A","datiPrivacy": {  "flgIstruttoriaPratica": false,  "flgRilevamentoQualita": false,  "flgOffertaComInterne": false,  "flgOffertaComEsterne": false,  "flgAltriServizi": false,  "flgDatiSensibili": false,  "datPrivacyIstruttoria": "2024-01-01",  "datPrivacyOfferte": "2024-01-01",  "datPrivacyDatiSensibili": "2024-01-01"},"codTipoNsg": "TNSG001","flgHighRisk": "N","codSnsg": "SNSG001","codGrandiRischi": "GR001","codArmamenti": "ARM001","codStage": "STG1","datiAltriAffidamenti": {  "impAttivitaFinanziaria": 100000.0,  "impMediaAttivitaFinanziaria": 80000.0},"flgBlackList": false,"formaGiuridica": "SRL","codiciTipologieSoggetto": ["RICHIEDENTE"],"codiciLegami": ["PRIMO_RICHIEDENTE"],"codCompletezzaAnagrafica": "COMPLETA","soggettoCollegato": [],"codRatingMonitoraggio": "R1","flgIndagineEseguita": true,"codAteco": "A1234","flgInteresseGIC": false,"codFilPortafogliazione": "FP001","codMatrGestorePrimoLivello": "MGPL001","codMatrGestoreSecondoLivello": "MGSL001","tipoGestoreSecondoLivello": "GEST2","flgISPBancaPrincipale": true,"flgClienteAffidato": false,"flgBilancioAggiornato": true,"codSnsgCapogruppo": "SNSGCG01","desIntestCapogruppo": "Capogruppo SPA","flgCib": false,"tipologiaRichiedente": "DEBITORE","flgIndagineGruppoEseguita": false,"tipoIndagineGruppo": "PARZIALE","codSnsgGruppo": "SNSGGRP01","desIntestGruppo": "Gruppo Srl","flgSoggettoFiduciario": false,"numProgSoggettoDI": 0,"flgAlertFrode": false,"codFilialeCapofila": "FIL001",  "codSettoreIspControparte": "AEROS00",  
+  "codSottoSettoreIspControparte": "AEROS01", 
+ "codSettoreIspGruppo": "AEROS00",    
+  "codSottoSettoreIspGruppo": "AEROS01",
+  "datFirmaDomanda": "2016-11-10",
+  "redditoMensilePostVendita": 12,
+  "redditoAnnualePostVendita": 30,
+  "numMensPercepitePostVendita": 1,
+  "professionePostVendita": "professionePostVendita",
+  "contrattoLavoroPostVendita": "contrattoLavoroPostVendita",
+  "settAttPostVendita": "settAttPostVendita",
+  "flagForborneFidi": false,
+  "codProfiloRischio": "codProfiloRischio",
+  "indFinancialInstitution": "TASK 7030",
+  "codAtecoPG": "codAtecoPG"
+  }
+],
+  
+  "numProgSoggettoDI": 0
+}
